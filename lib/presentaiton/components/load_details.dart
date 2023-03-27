@@ -930,9 +930,7 @@ class _LoadDetailsState extends State<LoadDetails> {
               ),
               child: TextButton(
                 style: TextButton.styleFrom(
-                  primary: Colors.white,
                   backgroundColor: Colors.white,
-                  onSurface: Colors.grey,
                 ),
                 onPressed: () {
                   _showModalBottomSheet();

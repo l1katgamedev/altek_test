@@ -70,6 +70,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
+    _searchController.dispose();
     connection!.cancel();
     super.dispose();
   }
