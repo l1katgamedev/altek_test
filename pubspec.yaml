@@ -43,6 +43,8 @@ dependencies:
   location: ^4.4.0
   geocoding: ^2.1.0
   slider_button: ^2.0.0
+  timelines: ^0.1.0
+  connectivity_plus: ^3.0.3
 
 dev_dependencies:
   flutter_test:
